@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
@@ -174,30 +174,12 @@
       <div class="modal-hint">You received this when you made your booking</div>
     </div>
 
-    <!-- Booking form (for creating a booking when user has selected slots) -->
-    <div id="bookingFormContainer">
-      <div class="form-group">
-        <label for="bookingName">Full Name</label>
-        <input type="text" id="bookingName" placeholder="Your full name" autocomplete="name">
-      </div>
-      <div class="form-group">
-        <label for="bookingEmail">Email</label>
-        <input type="email" id="bookingEmail" placeholder="you@example.com" autocomplete="email">
-      </div>
-      <div class="form-group">
-        <label for="bookingPhone">Phone (local)</label>
-        <input type="tel" id="bookingPhone" placeholder="9XXXXXXXXX (no country code)">
-      </div>
-      <div class="form-group">
-        <label for="bookingNotes">Notes (optional)</label>
-        <input type="text" id="bookingNotes" placeholder="Any notes for the booking">
-      </div>
-    </div>
+  
 
     <div class="modal-actions">
       <button class="btn-cancel" onclick="closeModal()">Cancel</button>
       <button class="btn-checkout" id="checkRefBtn" onclick="checkReference()" disabled>Check Status</button>
-      <button class="btn-confirm" id="confirmBtn" onclick="submitBooking()" disabled>Confirm Booking</button>
+      
     </div>
   </div>
 </div>
